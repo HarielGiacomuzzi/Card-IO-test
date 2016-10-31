@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A7252168636C15CE57DD81 /* Pods_CardioTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0865D956683D3BFA06C4B9 /* Pods_CardioTest.framework */; };
+		504F7C2DA37DA148C6156423 /* Pods_CardioTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3562AED98611FF6E0BBB57 /* Pods_CardioTestTests.framework */; };
+		9D285EA303BE331EF49990C9 /* Pods_CardioTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809925B176E8AA35D58F9900 /* Pods_CardioTestUITests.framework */; };
+		DBBAFCC11DC7A97E00196AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAFCC01DC7A97E00196AF4 /* AppDelegate.swift */; };
+		DBBAFCC31DC7A97E00196AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAFCC21DC7A97E00196AF4 /* ViewController.swift */; };
+		DBBAFCC61DC7A97E00196AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBAFCC41DC7A97E00196AF4 /* Main.storyboard */; };
+		DBBAFCC91DC7A97E00196AF4 /* CardioTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBBAFCC71DC7A97E00196AF4 /* CardioTest.xcdatamodeld */; };
+		DBBAFCCB1DC7A97E00196AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBAFCCA1DC7A97E00196AF4 /* Assets.xcassets */; };
+		DBBAFCCE1DC7A97E00196AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBAFCCC1DC7A97E00196AF4 /* LaunchScreen.storyboard */; };
+		DBBAFCD91DC7A97E00196AF4 /* CardioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAFCD81DC7A97E00196AF4 /* CardioTestTests.swift */; };
+		DBBAFCE41DC7A97E00196AF4 /* CardioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAFCE31DC7A97E00196AF4 /* CardioTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBBAFCD51DC7A97E00196AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBAFCB51DC7A97E00196AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBAFCBC1DC7A97E00196AF4;
+			remoteInfo = CardioTest;
+		};
+		DBBAFCE01DC7A97E00196AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBAFCB51DC7A97E00196AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBAFCBC1DC7A97E00196AF4;
+			remoteInfo = CardioTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0865D956683D3BFA06C4B9 /* Pods_CardioTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardioTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB47B91C48E78E3462BA29C /* Pods-CardioTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTest/Pods-CardioTest.release.xcconfig"; sourceTree = "<group>"; };
+		7A3562AED98611FF6E0BBB57 /* Pods_CardioTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardioTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809925B176E8AA35D58F9900 /* Pods_CardioTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardioTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A18C064E23FA82D27EF328 /* Pods-CardioTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTestUITests/Pods-CardioTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91AE6D127FCA1C8F81E73920 /* Pods-CardioTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTestTests/Pods-CardioTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		DADEC6C8D4BD8C30268B1D95 /* Pods-CardioTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTest/Pods-CardioTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBAFCBD1DC7A97E00196AF4 /* CardioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBAFCC01DC7A97E00196AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBAFCC21DC7A97E00196AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBBAFCC51DC7A97E00196AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBBAFCC81DC7A97E00196AF4 /* CardioTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardioTest.xcdatamodel; sourceTree = "<group>"; };
+		DBBAFCCA1DC7A97E00196AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBBAFCCD1DC7A97E00196AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBBAFCCF1DC7A97E00196AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBAFCD41DC7A97E00196AF4 /* CardioTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardioTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBAFCD81DC7A97E00196AF4 /* CardioTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioTestTests.swift; sourceTree = "<group>"; };
+		DBBAFCDA1DC7A97E00196AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBAFCDF1DC7A97E00196AF4 /* CardioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBAFCE31DC7A97E00196AF4 /* CardioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioTestUITests.swift; sourceTree = "<group>"; };
+		DBBAFCE51DC7A97E00196AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BB0DD198ED903306CE87F5 /* Pods-CardioTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTestTests/Pods-CardioTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AAB22C34EC71CCAFC61E5B /* Pods-CardioTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardioTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardioTestUITests/Pods-CardioTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBAFCBA1DC7A97E00196AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A7252168636C15CE57DD81 /* Pods_CardioTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCD11DC7A97E00196AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504F7C2DA37DA148C6156423 /* Pods_CardioTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCDC1DC7A97E00196AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D285EA303BE331EF49990C9 /* Pods_CardioTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41EE0F508E28BEBCF0992EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0865D956683D3BFA06C4B9 /* Pods_CardioTest.framework */,
+				7A3562AED98611FF6E0BBB57 /* Pods_CardioTestTests.framework */,
+				809925B176E8AA35D58F9900 /* Pods_CardioTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42389323BC17AB87AD14C56F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DADEC6C8D4BD8C30268B1D95 /* Pods-CardioTest.debug.xcconfig */,
+				4AB47B91C48E78E3462BA29C /* Pods-CardioTest.release.xcconfig */,
+				E4BB0DD198ED903306CE87F5 /* Pods-CardioTestTests.debug.xcconfig */,
+				91AE6D127FCA1C8F81E73920 /* Pods-CardioTestTests.release.xcconfig */,
+				F6AAB22C34EC71CCAFC61E5B /* Pods-CardioTestUITests.debug.xcconfig */,
+				89A18C064E23FA82D27EF328 /* Pods-CardioTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBBAFCB41DC7A97E00196AF4 = {
+			isa = PBXGroup;
+			children = (
+				DBBAFCBF1DC7A97E00196AF4 /* CardioTest */,
+				DBBAFCD71DC7A97E00196AF4 /* CardioTestTests */,
+				DBBAFCE21DC7A97E00196AF4 /* CardioTestUITests */,
+				DBBAFCBE1DC7A97E00196AF4 /* Products */,
+				42389323BC17AB87AD14C56F /* Pods */,
+				41EE0F508E28BEBCF0992EAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBAFCBE1DC7A97E00196AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBAFCBD1DC7A97E00196AF4 /* CardioTest.app */,
+				DBBAFCD41DC7A97E00196AF4 /* CardioTestTests.xctest */,
+				DBBAFCDF1DC7A97E00196AF4 /* CardioTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBBAFCBF1DC7A97E00196AF4 /* CardioTest */ = {
+			isa = PBXGroup;
+			children = (
+				DBBAFCC01DC7A97E00196AF4 /* AppDelegate.swift */,
+				DBBAFCC21DC7A97E00196AF4 /* ViewController.swift */,
+				DBBAFCC41DC7A97E00196AF4 /* Main.storyboard */,
+				DBBAFCCA1DC7A97E00196AF4 /* Assets.xcassets */,
+				DBBAFCCC1DC7A97E00196AF4 /* LaunchScreen.storyboard */,
+				DBBAFCCF1DC7A97E00196AF4 /* Info.plist */,
+				DBBAFCC71DC7A97E00196AF4 /* CardioTest.xcdatamodeld */,
+			);
+			path = CardioTest;
+			sourceTree = "<group>";
+		};
+		DBBAFCD71DC7A97E00196AF4 /* CardioTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBAFCD81DC7A97E00196AF4 /* CardioTestTests.swift */,
+				DBBAFCDA1DC7A97E00196AF4 /* Info.plist */,
+			);
+			path = CardioTestTests;
+			sourceTree = "<group>";
+		};
+		DBBAFCE21DC7A97E00196AF4 /* CardioTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBAFCE31DC7A97E00196AF4 /* CardioTestUITests.swift */,
+				DBBAFCE51DC7A97E00196AF4 /* Info.plist */,
+			);
+			path = CardioTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBAFCBC1DC7A97E00196AF4 /* CardioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBAFCE81DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTest" */;
+			buildPhases = (
+				E55967C35EEE56B9BB8F1B06 /* [CP] Check Pods Manifest.lock */,
+				DBBAFCB91DC7A97E00196AF4 /* Sources */,
+				DBBAFCBA1DC7A97E00196AF4 /* Frameworks */,
+				DBBAFCBB1DC7A97E00196AF4 /* Resources */,
+				3399F43D34B81A6B9AAA4B97 /* [CP] Embed Pods Frameworks */,
+				442FBFD7E2381A43BAFAB2DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardioTest;
+			productName = CardioTest;
+			productReference = DBBAFCBD1DC7A97E00196AF4 /* CardioTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBBAFCD31DC7A97E00196AF4 /* CardioTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBAFCEB1DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTestTests" */;
+			buildPhases = (
+				E42D24FADA25F9B5AFFDE47B /* [CP] Check Pods Manifest.lock */,
+				DBBAFCD01DC7A97E00196AF4 /* Sources */,
+				DBBAFCD11DC7A97E00196AF4 /* Frameworks */,
+				DBBAFCD21DC7A97E00196AF4 /* Resources */,
+				5BC955F86F364FBB94ACB74F /* [CP] Embed Pods Frameworks */,
+				ED1070BA5D638B1DAC0CBCE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBAFCD61DC7A97E00196AF4 /* PBXTargetDependency */,
+			);
+			name = CardioTestTests;
+			productName = CardioTestTests;
+			productReference = DBBAFCD41DC7A97E00196AF4 /* CardioTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBBAFCDE1DC7A97E00196AF4 /* CardioTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBAFCEE1DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTestUITests" */;
+			buildPhases = (
+				CFA340D33A5086B42E72E0CF /* [CP] Check Pods Manifest.lock */,
+				DBBAFCDB1DC7A97E00196AF4 /* Sources */,
+				DBBAFCDC1DC7A97E00196AF4 /* Frameworks */,
+				DBBAFCDD1DC7A97E00196AF4 /* Resources */,
+				621D3EABD4A087BC8558A8AD /* [CP] Embed Pods Frameworks */,
+				B3447E3F174B6F3FA45C684D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBAFCE11DC7A97E00196AF4 /* PBXTargetDependency */,
+			);
+			name = CardioTestUITests;
+			productName = CardioTestUITests;
+			productReference = DBBAFCDF1DC7A97E00196AF4 /* CardioTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBAFCB51DC7A97E00196AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Giacomuzzi;
+				TargetAttributes = {
+					DBBAFCBC1DC7A97E00196AF4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DVXNNDG4U4;
+						ProvisioningStyle = Automatic;
+					};
+					DBBAFCD31DC7A97E00196AF4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBBAFCBC1DC7A97E00196AF4;
+					};
+					DBBAFCDE1DC7A97E00196AF4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBBAFCBC1DC7A97E00196AF4;
+					};
+				};
+			};
+			buildConfigurationList = DBBAFCB81DC7A97E00196AF4 /* Build configuration list for PBXProject "CardioTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBBAFCB41DC7A97E00196AF4;
+			productRefGroup = DBBAFCBE1DC7A97E00196AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBAFCBC1DC7A97E00196AF4 /* CardioTest */,
+				DBBAFCD31DC7A97E00196AF4 /* CardioTestTests */,
+				DBBAFCDE1DC7A97E00196AF4 /* CardioTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBAFCBB1DC7A97E00196AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBAFCCE1DC7A97E00196AF4 /* LaunchScreen.storyboard in Resources */,
+				DBBAFCCB1DC7A97E00196AF4 /* Assets.xcassets in Resources */,
+				DBBAFCC61DC7A97E00196AF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCD21DC7A97E00196AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCDD1DC7A97E00196AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3399F43D34B81A6B9AAA4B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTest/Pods-CardioTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442FBFD7E2381A43BAFAB2DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTest/Pods-CardioTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC955F86F364FBB94ACB74F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTestTests/Pods-CardioTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621D3EABD4A087BC8558A8AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTestUITests/Pods-CardioTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3447E3F174B6F3FA45C684D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTestUITests/Pods-CardioTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA340D33A5086B42E72E0CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E42D24FADA25F9B5AFFDE47B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E55967C35EEE56B9BB8F1B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1070BA5D638B1DAC0CBCE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardioTestTests/Pods-CardioTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBAFCB91DC7A97E00196AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBAFCC91DC7A97E00196AF4 /* CardioTest.xcdatamodeld in Sources */,
+				DBBAFCC31DC7A97E00196AF4 /* ViewController.swift in Sources */,
+				DBBAFCC11DC7A97E00196AF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCD01DC7A97E00196AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBAFCD91DC7A97E00196AF4 /* CardioTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBAFCDB1DC7A97E00196AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBAFCE41DC7A97E00196AF4 /* CardioTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBAFCD61DC7A97E00196AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBAFCBC1DC7A97E00196AF4 /* CardioTest */;
+			targetProxy = DBBAFCD51DC7A97E00196AF4 /* PBXContainerItemProxy */;
+		};
+		DBBAFCE11DC7A97E00196AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBAFCBC1DC7A97E00196AF4 /* CardioTest */;
+			targetProxy = DBBAFCE01DC7A97E00196AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBBAFCC41DC7A97E00196AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBAFCC51DC7A97E00196AF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBBAFCCC1DC7A97E00196AF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBAFCCD1DC7A97E00196AF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBBAFCE61DC7A97E00196AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBBAFCE71DC7A97E00196AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBAFCE91DC7A97E00196AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADEC6C8D4BD8C30268B1D95 /* Pods-CardioTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVXNNDG4U4;
+				INFOPLIST_FILE = CardioTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBBAFCEA1DC7A97E00196AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB47B91C48E78E3462BA29C /* Pods-CardioTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVXNNDG4U4;
+				INFOPLIST_FILE = CardioTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DBBAFCEC1DC7A97E00196AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BB0DD198ED903306CE87F5 /* Pods-CardioTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardioTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardioTest.app/CardioTest";
+			};
+			name = Debug;
+		};
+		DBBAFCED1DC7A97E00196AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AE6D127FCA1C8F81E73920 /* Pods-CardioTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardioTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardioTest.app/CardioTest";
+			};
+			name = Release;
+		};
+		DBBAFCEF1DC7A97E00196AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AAB22C34EC71CCAFC61E5B /* Pods-CardioTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CardioTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CardioTest;
+			};
+			name = Debug;
+		};
+		DBBAFCF01DC7A97E00196AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A18C064E23FA82D27EF328 /* Pods-CardioTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CardioTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomuzzi.CardioTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CardioTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBAFCB81DC7A97E00196AF4 /* Build configuration list for PBXProject "CardioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBAFCE61DC7A97E00196AF4 /* Debug */,
+				DBBAFCE71DC7A97E00196AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBAFCE81DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBAFCE91DC7A97E00196AF4 /* Debug */,
+				DBBAFCEA1DC7A97E00196AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBAFCEB1DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBAFCEC1DC7A97E00196AF4 /* Debug */,
+				DBBAFCED1DC7A97E00196AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBAFCEE1DC7A97E00196AF4 /* Build configuration list for PBXNativeTarget "CardioTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBAFCEF1DC7A97E00196AF4 /* Debug */,
+				DBBAFCF01DC7A97E00196AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBBAFCC71DC7A97E00196AF4 /* CardioTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBBAFCC81DC7A97E00196AF4 /* CardioTest.xcdatamodel */,
+			);
+			currentVersion = DBBAFCC81DC7A97E00196AF4 /* CardioTest.xcdatamodel */;
+			path = CardioTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBBAFCB51DC7A97E00196AF4 /* Project object */;
+}
